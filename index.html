@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <!--meta tags-->
@@ -10,6 +11,9 @@
     <!--Title of the Website-->
     <title>Portfolio Website</title>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
     <!--External Stylesheets link-->
     <link rel="stylesheet" href="css/bootstrap-version-4.2.css">
     <link rel="stylesheet" href="css/style.css">
@@ -18,18 +22,19 @@
 </head>
 
 <!--Body of the Website starts-->
+
 <body class="mt-4">
 
     <!---navigation menu starts-->
     <nav class="container navbar navigation-menu mb-2">
-        <a class="navbar-brand" href="index.html">MY PORTFOLIO WEBSITE</a>
+        <a class="navbar-brand" href="index.html">MY PORTFOLIO</a>
     </nav>
     <!---navigation menu ends-->
 
 
     <div class="container container-modify p-5">
-        
-        <!--header row starts-->    
+
+        <!--header row starts-->
         <header>
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-4 col-sm-2 col-xs-2">
@@ -37,32 +42,126 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10 col-xs-10 text-right">
                     <h1 class="heading1">RANJITH KUMAR</h1>
-                    <h2 class="heading2">FRONT-END NINJA</h2>                                   
+                    <h2 class="heading2">FRONT-END NINJA</h2>
                 </div>
             </div>
         </header>
         <!--header row ends-->
-        
+
         <!--ruler-->
         <hr class="ruler">
 
         <!--main document-->
-       <main class="mt-2">
-           <div class="row">    
-               <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                   <img src="img/background.jpg" alt="Background Image" class="img-fluid img-thumbnail">
-               </div>
-           </div>
-       </main>
-       
+        <main class="mt-2">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                    <img src="img/background.jpg" alt="Background Image" class="img-fluid img-thumbnail">
+                </div>
+            </div>
+        </main>
+
+
         <!--section starts here-->
-        <section class="mt-2">
-            <h3 class="heading3 mt-3">Featured Work</h3>
+        <section class="mt-2 section-style">
+            <h3 class="heading3 mt-3 text-center">FEAUTURED WORK</h3>
+
+            <!--slideshow starts-->
+            <div id="control" class="carousel slide" data-ride="carousel">
+
+                <div class="carousel-inner">
+
+                    <div class="container">
+
+                        <div class="carousel-item active">
+
+                            <div class="row">
+
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div class="card mt-3 pb-2">
+                                        <img class="img-fluid" src="img/restaurant.jpg" alt="Background slide 1">
+
+                                        <article class="text-center">
+                                            <h4 class="heading4 mt-3">RESTAURANT APP</h4>
+                                        </article>
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <!--article 1 starts-->
+                                    <article class="text-center">
+                                        <h4 class="heading4 mt-3">RESTAURANT APP</h4>
+                                        <p>Develope a Restaurant review application using front-end framework like Angular Js.</p>
+                                        <a href="https://github.com/webbizleads/Restaurant-Reviews-Application" class="link-style">
+                                            https://github.com/webbizleads/Restaurant-Reviews-Application
+                                        </a>
+                                    </article>
+                                    <!--article 1 ends-->
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+
+                            <div class="row">
+
+                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                    <div class="card mt-3 pb-2">
+                                        <img class="img-fluid" src="img/testing.webp"
+                                            alt="Background slide 2">
+
+                                        <article class="text-center">
+                                            <h4 class="heading4 mt-3">FEED READER TESTING</h4>
+                                        </article>
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                    <!--article 2 starts-->
+                                    <article class="text-center">
+                                        <h4 class="heading4 mt-3">FEED READER TESTING</h4>
+                                        <p class="paragraph">Testing an individual functionality of the application using Jasmine testing framework.</p>
+                                        <a href="https://github.com/webbizleads/Feed-Reader-Testing" class="link-style">
+                                            https://github.com/webbizleads/Feed-Reader-Testing
+                                        </a>
+                                    </article>
+                                    
+                                    <!--article 2 ends-->
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <a class="carousel-control-prev" href="#control" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+
+                    <a class="carousel-control-next" href="#control" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <!--slideshow ends-->
+
+        </section>
+        <!--section ends here-->
+
+
+        <section class="section2-style">
+            <h3 class="heading3 mt-3 text-center">COMPLETED WORK</h3>
+            <!--ruler-->
+           <hr class="ruler">
 
             <!--row starts here-->
             <div class="row">
 
-                <!--column 1 starts-->  
+                <!--column 1 starts-->
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                     <div class="card mt-3 pb-2">
 
@@ -73,18 +172,19 @@
                         <article class="text-center">
                             <h4 class="heading4 mt-3">MEMORY GAME</h4>
                             <hr class="section-ruler">
-                            <p class="paragraph">Classic Board Game is going to Develope using Javascript Document Object Model</p>
+                            <p class="paragraph">Classic Board Game is going to Develope using Javascript Document
+                                Object Model</p>
                             <hr class="section-ruler">
                             <a href="https://github.com/webbizleads/Memory-Game" class="link-style">
                                 https://github.com/webbizleads/Memory-Game
                             </a>
                         </article>
                         <!--article 1 ends-->
-                         
+
                     </div>
                 </div>
                 <!--column 1 ends-->
-                
+
                 <!--column 2 starts-->
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                     <div class="card mt-3 pb-2">
@@ -96,15 +196,16 @@
                         <article class="text-center">
                             <h4 class="heading4 mt-3">ARCADE GAME</h4>
                             <hr class="section-ruler">
-                            <p class="paragraph">Recreating Classic Arcade Game Frogger using Assets and Game Loop Engine</p>
-                            <hr class="section-ruler"> 
+                            <p class="paragraph">Recreating Classic Arcade Game Frogger using Assets and Game Loop
+                                Engine</p>
+                            <hr class="section-ruler">
                             <a href="https://github.com/webbizleads/Classic-Arcade-Game" class="link-style">
                                 https://github.com/webbizleads/Classic-Arcade-Game
                             </a>
                         </article>
                         <!--article 2 ends-->
 
-                    </div>            
+                    </div>
                 </div>
                 <!--column 2 ends-->
 
@@ -113,41 +214,41 @@
                     <div class="card mt-3 pb-2">
 
                         <!--Image 3-->
-                        <img src="img/restaurant.jpg" alt="Restaurant Application Image" class="img-fluid">
+                        <img src="img/portfolio.png" alt="Portfolio image" class="img-fluid">
 
                         <!--article 3 starts-->
                         <article class="text-center">
-                            <h4 class="heading4 mt-3">RESTAURANT APP</h4>
+                            <h4 class="heading4 mt-3">PORTFOLIO</h4>
                             <hr class="section-ruler">
-                            <p class="paragraph">Developing Restaurant Reviews Application using Angular Js</p>
+                            <p class="paragraph">Developing Portfolio website using responsive framework bootstrap.</p>
                             <hr class="section-ruler">
-                            <a href="https://github.com/webbizleads/Restaurant-Reviews-Application" class="link-style">
-                                https://github.com/webbizleads/Restaurant-Reviews-Application
+                            <a href="https://github.com/webbizleads/Portfolio" class="link-style">
+                                https://github.com/webbizleads/Portfolio
                             </a>
                         </article>
                         <!--article 3 ends-->
 
-                    </div>      
+                    </div>
                 </div>
 
             </div>
             <!--row ends here-->
 
+
+            <!--footer starts here-->
+            <footer class="bottom-navigation mt-4">
+                <nav class="navbar">
+                    <a class="nav-link" href="index.html">Contact us</a>
+                    <a class="nav-link" href="index.html">About us</a>
+                    <a class="nav-link" href="index.html">Rss Feed</a>
+                </nav>
+            </footer>
+            <!--footer ends here-->
+
         </section>
-        <!--section ends here-->
 
     </div>
     <!--Container ends here-->
-
-    <!--footer starts here-->
-    <footer class="container bottom-navigation mt-2 mb-3">
-        <nav class="navbar">
-            <a class="nav-link" href="index.html">Contact us</a>
-            <a class="nav-link" href="index.html">About us</a>
-            <a class="nav-link" href="index.html">Rss Feed</a>            
-        </nav>
-    </footer>
-    <!--footer ends here-->
 
 </body>
 <!--body of Website ends-->

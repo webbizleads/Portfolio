@@ -18,6 +18,23 @@ body {
 }
 
 
+/**section style**/
+.section-style {
+    background-color: rgba(236, 239, 241, 0.8);
+    color: #546e7a;
+    margin-left: -48px;
+    margin-right: -48px;
+    height: auto;
+}
+
+
+/**section style2**/
+.section2-style {
+    margin-top:50px;
+    background-color: white;
+}
+
+
 /**heading styles starts here**/
 /**H1 heading Tag**/
 .heading1 {
@@ -35,19 +52,26 @@ body {
 
 /**H3 heading Tag**/
 .heading3 {
-    font-size: 2.3em;
-    color: #7d97ad;
+    padding-top: 10px; 
+    font-size: 1.6em;
     font-weight: normal;
 }
 
 
 /**H4 heading Tag**/
 .heading4 {
-    font-size: 1.5em;
-    color: #2d3c49;
+    font-size: 1.4em;
+    color: #0d47a1;
     font-weight: normal;
 }
 /**heading styles ends**/
+
+
+/**paragraph**/
+.paragraph {
+    color: #1b5e20;
+    letter-spacing: 1px;
+}
 
 
 /**size of images goes here**/
@@ -87,6 +111,7 @@ body {
     box-shadow: 0 2px 10px rgba(0,0,0,0.35); 
     -moz-box-shadow: 0 2px 10px rgba(0,0,0,0.35); 
     -webkit-box-shadow: 0 2px 10px rgba(0,0,0,0.35); 
+    background-color: #263238;
 }
 
 
@@ -95,6 +120,8 @@ body {
     box-shadow: 0 2px 10px rgba(0,0,0,0.35); 
     -moz-box-shadow: 0 2px 10px rgba(0,0,0,0.35); 
     -webkit-box-shadow: 0 2px 10px rgba(0,0,0,0.35); 
+    background-color: #263238;
+    margin: -48px;
 }
 
 
@@ -111,6 +138,13 @@ body {
     box-shadow: 0 2px 5px rgba(0,0,0,0.50);
     -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.50);
     -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.50);
+}
+
+
+/**slide show image size**/
+.carousel-inner{
+    width: 100%;
+    height: auto;
 }
 
 
@@ -149,7 +183,6 @@ body {
         font-size: 1em;
     }
 
-
 }
 
 
@@ -186,6 +219,5 @@ body {
     .paragraph {
         font-size: 1.2em;
     }
-
 
 }

@@ -2,6 +2,7 @@
 
 /**Font import from google fonts**/
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
 
 /**body style**/
@@ -18,19 +19,19 @@ body {
 }
 
 
-/**section style**/
+/**section 1 style**/
 .section-style {
-    background-color: rgba(236, 239, 241, 0.8);
-    color: #546e7a;
+    background-color: #263238;
     margin-left: -48px;
     margin-right: -48px;
     height: auto;
+    padding-bottom: 20px;
 }
 
 
-/**section style2**/
+/**section 2 style**/
 .section2-style {
-    margin-top:50px;
+    margin-top: 20px;
     background-color: white;
 }
 
@@ -69,8 +70,14 @@ body {
 
 /**paragraph**/
 .paragraph {
-    color: #1b5e20;
-    letter-spacing: 1px;
+    color: #263238;
+    font: 1.0em 'Montserrat', sans-serif;
+}
+
+
+/**heading4-slider**/
+.heading4-slider {
+    color: #29b6f6;
 }
 
 
